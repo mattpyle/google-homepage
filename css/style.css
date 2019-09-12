@@ -1,0 +1,134 @@
+body {
+    color: #222;
+    font-family: arial, sans-serif;
+}
+
+.main-content {
+    margin: 5px auto;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+#container {
+    text-align: center;
+    padding-top: 14em;
+    min-height: 100%;
+}
+
+#search-box {
+    box-shadow: none;
+    border-radius: 24px;
+    max-width: 482px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid lightgray;
+}
+
+.search-input {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 15px;
+}
+
+#navbar li {
+    list-style: none;
+    font-size: 13px;
+    display: inline;
+    margin-left: 5px;
+}
+
+
+#navbar a {
+    display: inline;
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+#top-left-links-div {
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#top-right-links-div {
+    float: right;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#apps-button {
+    vertical-align: middle;
+}
+
+
+#sign-in-button {
+    border-radius: 2px;
+    font-weight: bold;
+    outline: none;
+    background-color: #4285f4;
+    padding: 8px 12px;
+}
+
+#sign-in-button a {
+    color: #fff;
+    font-weight: bold;
+    opacity: 100;
+}
+
+#search-buttons {
+    padding-top: 20px;
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+    font-size: 14px;
+    color: #5f6368;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+}
+
+.footer-containers {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 12px;
+    padding-left: 40px;
+    color: #5f6368;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5f6368;
+    padding-right: 8px;
+}
+
+#footer-links-right {
+    float: right;
+}
+
+#footer-links-left {
+    position: absolute;
+}
